@@ -1,0 +1,73 @@
+html {
+    overflow-y: scroll;
+}
+
+BODY {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background-image: url("../imgs/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #ffffff;
+}
+
+TABLE {
+    background-image: url("http://cdn.steamcommunity.com/public/images/profile/profile_header_bg_texture.jpg");
+    background-color: #141414;
+}
+
+TD {
+    text-align: left;
+    color: #737271;
+}
+
+.heading {
+    padding: 5px;
+    font-weight: bold;
+    color: #5491cf;
+    cursor: pointer;
+}
+
+.centerHeading {
+    padding: 5px;
+    font-weight: bold;
+    color: #5491cf;
+    text-align: center;
+    cursor: pointer;
+}
+
+.game {
+    padding: 5px;
+    background-color: #222223;
+    border: 1px solid #212121;
+    box-shadow: 1px 1px 0px #343944;
+    border-radius: 3px;
+}
+
+.check {
+    background-color: green;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+}
+
+.no {
+    background-color: red;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+}
+
+.notes {
+    padding: 5px;
+    text-align: center;
+    background-color: #222223;
+    border: 1px solid #212121;
+    box-shadow: 1px 1px 0px #343944;
+    border-radius: 3px;
+}
+
+input {
+    background-color: #222223;
+    color: #c0bfbe !important;
+    border: 1px solid #144aa3;
+}
